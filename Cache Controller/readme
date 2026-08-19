@@ -1,0 +1,25 @@
+# Cache Controller in Verilog
+
+## Overview
+
+This project implements a simple Cache Controller using Verilog HDL.
+
+The cache controller provides an interface between a CPU and main memory.
+It checks whether requested data is available in the cache and generates
+a cache hit or cache miss indication.
+
+## Features
+
+- Verilog HDL implementation
+- 4 cache lines
+- 8-bit address
+- 8-bit data
+- Read operation
+- Write operation
+- Cache hit detection
+- Cache miss detection
+- Valid bit
+- Dirty bit
+- Write-back support
+- Testbench included
+- Simulation output included

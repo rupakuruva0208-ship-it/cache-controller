@@ -1,0 +1,14 @@
+TEST 1: READ MISS
+Address = 10, Data = aa, Hit = 0
+
+TEST 2: READ HIT
+Address = 10, Data = aa, Hit = 1
+
+TEST 3: WRITE HIT
+Address = 10, Write Data = 55, Hit = 1
+
+TEST 4: READ AFTER WRITE
+Address = 10, Data = 55, Hit = 1
+
+TEST 5: READ MISS
+Address = 20, Data = bb, Hit = 0
